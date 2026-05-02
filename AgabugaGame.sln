@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35506.116 d17.12
+VisualStudioVersion = 17.12.35506.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgabugaGame", "AgabugaGame\AgabugaGame.csproj", "{98993A1B-C8D2-4533-8FE8-3841A627FEE6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{346C24DC-7BFD-420A-9A57-E54EB919C712}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{FE958154-F0A1-48C9-8368-9DE853F2B694}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{F3280F22-9761-4C82-94C1-71AB42351709}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{346C24DC-7BFD-420A-9A57-E54EB919C712}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{346C24DC-7BFD-420A-9A57-E54EB919C712}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{346C24DC-7BFD-420A-9A57-E54EB919C712}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE958154-F0A1-48C9-8368-9DE853F2B694}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE958154-F0A1-48C9-8368-9DE853F2B694}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE958154-F0A1-48C9-8368-9DE853F2B694}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE958154-F0A1-48C9-8368-9DE853F2B694}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3280F22-9761-4C82-94C1-71AB42351709}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3280F22-9761-4C82-94C1-71AB42351709}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3280F22-9761-4C82-94C1-71AB42351709}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3280F22-9761-4C82-94C1-71AB42351709}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

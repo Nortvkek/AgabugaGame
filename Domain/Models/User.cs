@@ -11,7 +11,8 @@ namespace Domain.Models
         public string Name { get; set; }
         public string Login { get; set; }
         public byte[] Password { get; set; }
-        public List<Item> inventory { get; set; }
+        public List<RefreshToken> RefreshTokens { get; set; } = new();
+        public List<Item> Inventory { get; set; }
         public User() 
         {
             Id = Guid.NewGuid();
