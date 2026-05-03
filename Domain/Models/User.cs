@@ -23,7 +23,7 @@ namespace Domain.Models
             Name = name;
             Login = login;
             Password = password;
-            this.inventory = inventory;
+            Inventory = inventory;
         }
     }
 }
